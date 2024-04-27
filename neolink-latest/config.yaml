@@ -10,7 +10,7 @@ arch:
   - i386
   - armv7
 ports:
-  8555/tcp: 8554
+  8556/tcp: 8554
 map:
   - config
 options:
