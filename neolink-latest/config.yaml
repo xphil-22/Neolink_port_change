@@ -1,5 +1,5 @@
-name: "Neolink-port-change-latest"
-description: "(port changed) Will run latest Neolink directly as Add-on in HAOS"
+name: "Neolink-latest"
+description: "Will run latest Neolink directly as Add-on in HAOS"
 version: "0.0.1"
 slug: "neolink-latest"
 init: false
@@ -10,7 +10,7 @@ arch:
   - i386
   - armv7
 ports:
-  - "8555:8555"
+  8555/tcp: 8555
 map:
   - config
 options:
